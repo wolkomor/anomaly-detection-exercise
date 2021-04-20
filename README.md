@@ -1,4 +1,4 @@
-# Get prdiction instruction
+# Get prediction on new data
 
 1) Load data from csv to a dataframe. Data must contain same columns as in the training set: source_port, dest_port, nat_source_port, nat_dest_port, action, bytes, bytes_sent, bytes_received, packets, time_elapsed_sec, ts_ret_a, timestamp, timestamp_relative, packets_sent, packets_received 
 2) Run all sections until the section "Serving the model"
